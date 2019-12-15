@@ -1,8 +1,9 @@
-cd stepik---auto-tests-course/  - enter to folder
+cd "C:\Users\Vasya\Desktop\stepik---auto-tests-course/"- enter to folder of our project in github
+
 git status              - status
 git add README.md       - add file to look for it in local repository
-git config --global user.email "vasya_marusyal@i.ua"
-git config --global user.name "vasyamarusyak"
+git config --global user.email ""
+git config --global user.name ""
 git commit -m "your comment to describe changes"    -  comment 
 git log   -  to see the history of all the comits
 git push origin master  - push all of the commits to global branch(master branch)

@@ -1,4 +1,20 @@
-cd environments
-python -m venv selenium_env
-selenium_env\Scripts\activate.bat
+                           Create virtual environment
+mkdir environments                                      # create folder with all for all virtual environments
+cd environments                                         # enter to folder
+python -m venv selenium_env                             # create virtual environment
+selenium_env\Scripts\activate.bat                       # activate virtual environment
+deactivate.bat                                          # exit virtual environment
 python c:\Users\Vasya\Desktop\selenium_course\get_method.py
+			Establish Selenuim for Python
+cd environments                                         # enter to folder
+python -m venv selenium_env                             # create virtual environment
+pip install selenium==3.14.0
+pip list						# check that Selenium is established
+                        Establish Chrome
+                        Establish Chromedriver 
+https://sites.google.com/a/chromium.org/chromedriver/downloads  #go and download ChromeDriver
+rearchive this file
+create folder C:\chromedriver and put there rearchive Chromedriver file
+add to system varialbes variable C:\chromedriver to PATH 
+exit and enter to cmd, activate virtual environment
+check that vatiable C:\chromedriver added to PATH(write Path in the cmd)
